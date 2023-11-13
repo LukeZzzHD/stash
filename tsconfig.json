@@ -26,7 +26,11 @@
     /* Path Aliases */
     "baseUrl": ".",
     "paths": {
-      "~/*": ["./src/*"]
+      "@/*": ["./src/*"],
+      "@/components/*": ["./src/app/components/*"],
+      "@/api/*": ["./src/app/api/*"],
+      "@/server/*": ["./src/server/*"],
+      "@/trpc/*": ["./src/trpc/*"]
     }
   },
   "include": [
